@@ -62,3 +62,32 @@ div {
 
 
 // each문 예제
+// list
+$fruits: (apple, orange, banana, mango);
+
+.fruits {
+    @each $fruit in $fruits {
+        $index: index($fruits, $fruit);
+        li.#{$fruits} {
+            left: 50px * $index;
+            background: url("/images/#{fruit}.png");
+        }
+    }
+}
+
+// map
+$fruits-data: (
+    apple: korea,
+    orange: china,
+    banana: japan
+);
+
+@each $fruit, $country in $fruits-data {
+    $fruits-data--key-list: map-keys($fruits-data);
+    $fruits-data--value-list: map-values($fruits-data);
+    $index: index($fruits-data--key-list, $fruit);
+    .box-#{$Fruit} {
+        width: 100px * $index;
+        background: url("/images/#${country}.png");
+    }
+}
