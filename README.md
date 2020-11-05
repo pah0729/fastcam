@@ -1,3 +1,4 @@
 # fastcam
 
-    python
+    Python
+    JavaScript
