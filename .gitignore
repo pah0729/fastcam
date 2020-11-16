@@ -126,3 +126,6 @@ migrations/
 secret.json
 
 banking.xlsx
+
+# 메모장
+memo.txt

@@ -1,0 +1,1 @@
+const dogName = '멍멍이';
