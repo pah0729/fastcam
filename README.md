@@ -1,5 +1,5 @@
 # fastcam
-## My Own Merry Story
+## My Own Merry Sto
 
     Python
         1. 기초 문법 
